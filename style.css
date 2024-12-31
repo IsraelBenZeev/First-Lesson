@@ -3,8 +3,9 @@
     --content-color: #d1d4dc; /* תוכן */
 }
 body{
-    padding: 20%;
+    /* padding: 10px; */
     font-family: 'Segoe UI';
+    min-height: 100vh; 
 }
 .header{
     display: flex;
@@ -53,7 +54,7 @@ h1{
     padding: 1%;
     
     a{
-        padding: 1%;
+        padding: 2%;
         color: var(--content-color);
     }
 }
