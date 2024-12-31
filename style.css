@@ -1,0 +1,63 @@
+:root {
+    --backGround-color: #00274D; /* רקע */
+    --content-color: #d1d4dc; /* תוכן */
+}
+body{
+    padding: 20%;
+    font-family: 'Segoe UI';
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--backGround-color);
+    height: 10%;
+}
+h1{
+    font-size: 80%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--content-color);
+    height: 30%;
+   
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#myProfilImg{
+    
+    height: 40%;
+    border-radius: 50%;
+    border: 4px solid var(--backGround-color);
+}
+.insideContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+}
+.aboutMe{
+    padding: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--backGround-color);
+    height: 5%;
+    padding: 1%;
+    
+    a{
+        padding: 1%;
+        color: var(--content-color);
+    }
+}
+
+
+
+
