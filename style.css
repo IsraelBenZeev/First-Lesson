@@ -15,34 +15,40 @@ body{
 }
 h1{
     font-size: 80%;
+    color: var(--content-color);
 }
 .content{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--content-color);
-    height: 30%;
-   
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-#myProfilImg{
-    
     height: 40%;
-    border-radius: 50%;
-    border: 4px solid var(--backGround-color);
+    /* padding: 0.5%; */
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
 }
 .insideContent{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     height: 100%;
     width: 100%;
 }
+#myProfilImg{
+    height: 50%;
+    border-radius: 50%;
+    border: 2px solid var(--backGround-color);
+    position: absolute;
+    top: 15px;
+
+}
 .aboutMe{
-    padding: 10px;
+    padding: 0%;
+    color: var(--backGround-color);
+    position: absolute;
+    top: 130px;
 }
 .footer{
     display: flex;
@@ -52,10 +58,18 @@ h1{
     height: 5%;
     padding: 1%;
     
-    a{
-        padding: 2%;
-        color: var(--content-color);
-    }
+   
+}
+.footer a{
+    padding: 2%;
+    color: var(--content-color);
+}
+.footer i{
+    transition: transform 0.2s ease;
+}
+.footer i:hover{
+   
+    transform: scale(1.2);
 }
 
 
